@@ -4,6 +4,7 @@
             "type": "array",
             "title": "Bullets Group",
             "items": {
+               "properties": {
                 "image": {
                     "$ref": "app:vtex.native-types#/definitions/url",
                     "default": "",
@@ -22,6 +23,7 @@
                     "$ref": "app:vtex.native-types#/definitions/link",
                     "default": ""
                 }
+               }
             }
         }
     }
